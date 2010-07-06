@@ -1,0 +1,11 @@
+Here follow instructions for installing RoboRally Board Editor:
+
+- Unpack the .java files.
+- Compile them using your favourite java compiler.
+- Copy the .class files, the theme and graphics directory, and the .rrbe file to a location of your choice.
+- Change directory to that location.
+- Run RRBE, probibably by typing java RRBE.
+
+Have fun!
+
+/Niklas Lundström

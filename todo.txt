@@ -1,0 +1,11 @@
+Bugs:
+- New board needs resize to draw
+- Tool bar doesn't redraw when theme changed
+
+Feature:
+	- Export image partitioning
+	- Formula parsing for placing elements
+	- Tool catheories
+	- Undo
+	- Theme conversion
+	- Difficulty analyzer

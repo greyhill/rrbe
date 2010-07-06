@@ -1,0 +1,576 @@
+Name=default 160x160;
+ImageResolution=160;
+PitIcon=4pit.png;
+Pitwall=pittop.png;
+pitcorner90=pitcornertl90.png;
+pitcornerl180=pitcornertl180t.png;
+pitcornerr180=pitcornertr180t.png;
+pitcorner270=pitcornertl270.png;
+wallthickness=16;
+wall=walltop.png;
+wallcorner=wallcornertr90.png;
+Element=
+	name Floor_1
+	typeId floor1
+	factory element
+	image floor.png
+	level 0
+	requirewall 0
+	scaletowall 0;
+Element=
+	name Floor_2
+	typeId floor2
+	factory element
+	image floor2.png
+	level 0
+	requirewall 0
+	scaletowall 0;
+Element=
+	name Finish
+	typeId finish2
+	factory element
+	image finish.png
+	level 1
+	requirewall 0
+	scaletowall 0;
+Element=
+	name Repait_one
+	typeId repair1
+	factory element
+	image repairone.png
+	level 1
+	requirewall 0
+	scaletowall 0;
+Element=
+	name Repait_two
+	typeId repair2
+	factory element
+	image repairtwo.png
+	level 1
+	requirewall 0
+	scaletowall 0;
+Element=
+	name Gear_left
+	typeId gearl1
+	factory element
+	image gearl.png
+	level 1
+	requirewall 0
+	scaletowall 1;
+Element=
+	name Gear_right
+	typeId gearr1
+	factory element
+	image gearr.png
+	level 1
+	requirewall 0
+	scaletowall 1;
+Element=
+	name Crusher
+	typeId crusher1
+	factory timedelement
+	image crusher.png
+	timeImageBase crusher
+	timeImageSufix .png
+	level 2
+	requirewall 0
+	scaletowall 1;
+Element=
+	name Pusher
+	typeId pusher1
+	factory timedelement
+	image pusher.png
+	timeImageBase pusher
+	timeImageSufix .png
+	level 2
+	requirewall 1
+	scaletowall 1;
+Element=
+	name Trap_door
+	typeId trapdoor1
+	factory timedelement
+	image trapdoor.png
+	timeImageBase trapdoor
+	timeImageSufix .png
+	level 1
+	requirewall 0
+	scaletowall 1;
+Element=
+	name Spiked_wall
+	typeId spikes1
+	factory element
+	image spikes.png
+	level 5
+	requirewall 1
+	scaletowall 1;
+Element=
+	name Green_teleporter
+	typeId teleport1
+	factory element
+	image greenteleporter.png
+	level 1
+	requirewall 0
+	scaletowall 1;
+Element=
+  name Blue_teleporter
+  typeId teleport2
+  factory element
+  image blueteleporter.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Red_teleporter
+  typeId teleport3
+  factory element
+  image redteleporter.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Yellow_teleporter
+  typeId teleport4
+  factory element
+  image yellowteleporter.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Pink_teleporter
+  typeId teleport5
+  factory element
+  image pinkteleporter.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Green_gate
+  typeId gate1
+  factory element
+  image greengate.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Blue_gate
+  typeId gate2
+  factory element
+  image bluegate.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Orange_gate
+  typeId gate3
+  factory element
+  image orangegate.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Red_gate
+  typeId gate4
+  factory element
+  image redgate.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Purple_gate
+  typeId gate5
+  factory element
+  image purplegate.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Yellow_gate
+  typeId gate6
+  factory element
+  image yellowgate.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+	name Conveyrobelt_start
+	typeId convs1
+	factory scalebaseelement
+	baseimage conveyorbase.png
+	image conveyorfstart.png
+	level 1
+	requirewall 0;
+Element=
+	name Conveyrobelt_forward
+	typeId convf1
+	factory scalebaseelement
+	baseimage conveyorbase.png
+	image conveyorf.png
+	level 1
+	requirewall 0;
+Element=
+	name Conveyrobelt_forward_left_turn
+	typeId convflt1
+	factory scalebaseelement
+	baseimage conveyorbase.png
+	image conveyorflt.png
+	level 1
+	requirewall 0;
+Element=
+	name Conveyrobelt_forward_right_turn
+	typeId convfrt1
+	factory scalebaseelement
+	baseimage conveyorbase.png
+	image conveyorfrt.png
+	level 1
+	requirewall 0;
+Element=
+	name Conveyrobelt_left_turn
+	typeId convlt1
+	factory scalebaseelement
+	baseimage conveyorbase.png
+	image conveyorlt.png
+	level 1
+	requirewall 0;
+Element=
+	name Conveyrobelt_right_turn
+	typeId convrt1
+	factory scalebaseelement
+	baseimage conveyorbase.png
+	image conveyorrt.png
+	level 1
+	requirewall 0;
+Element=
+	name Conveyrobelt_left_and_right_turn
+	typeId convlrt1
+	factory scalebaseelement
+	baseimage conveyorbase.png
+	image conveyorlrt.png
+	level 1
+	requirewall 0;
+
+Element=
+	name Fast_conveyrobelt_start
+	typeId fconvs1
+	factory scalebaseelement
+	baseimage fastconveyorbase.png
+	image fastconveyorfstart.png
+	level 1
+	requirewall 0;
+Element=
+	name Fast_conveyrobelt_forward
+	typeId fconvf1
+	factory scalebaseelement
+	baseimage fastconveyorbase.png
+	image fastconveyorf.png
+	level 1
+	requirewall 0;
+Element=
+	name Fast_conveyrobelt_forward_left_turn
+	typeId fconvflt1
+	factory scalebaseelement
+	baseimage fastconveyorbase.png
+	image fastconveyorflt.png
+	level 1
+	requirewall 0;
+Element=
+	name Fast_conveyrobelt_forward_right_turn
+	typeId fconvfrt1
+	factory scalebaseelement
+	baseimage fastconveyorbase.png
+	image fastconveyorfrt.png
+	level 1
+	requirewall 0;
+Element=
+	name Fast_conveyrobelt_left_turn
+	typeId fconvlt1
+	factory scalebaseelement
+	baseimage fastconveyorbase.png
+	image fastconveyorlt.png
+	level 1
+	requirewall 0;
+Element=
+	name Fast_conveyrobelt_right_turn
+	typeId fconvrt1
+	factory scalebaseelement
+	baseimage fastconveyorbase.png
+	image fastconveyorrt.png
+	level 1
+	requirewall 0;
+Element=
+	name Fast_conveyrobelt_left_and_right_turn
+	typeId fconvlrt1
+	factory scalebaseelement
+	baseimage fastconveyorbase.png
+	image fastconveyorlrt.png
+	level 1
+	requirewall 0;
+	
+Element=
+	name Gold_conveyorbelt_start
+	typeId gconvs1
+	factory scalebaseelement
+	baseimage goldconveyorbase.png
+	image goldconveyorfstart.png
+	level 1
+	requirewall 0;
+Element=
+	name Gold_conveyorbelt_forward
+	typeId gconvf1
+	factory scalebaseelement
+	baseimage goldconveyorbase.png
+	image goldconveyorf.png
+	level 1
+	requirewall 0;
+Element=
+	name Gold_Conveyorbelt_forward_left_turn
+	typeId gconvflt1
+	factory scalebaseelement
+	baseimage goldconveyorbase.png
+	image goldconveyorflt.png
+	level 1
+	requirewall 0;
+Element=
+	name Gold_conveyorbelt_forward_right_turn
+	typeId gconvfrt1
+	factory scalebaseelement
+	baseimage goldconveyorbase.png
+	image goldconveyorfrt.png
+	level 1
+	requirewall 0;
+Element=
+	name Gold_conveyorbelt_left_turn
+	typeId gconvlt1
+	factory scalebaseelement
+	baseimage goldconveyorbase.png
+	image goldconveyorlt.png
+	level 1
+	requirewall 0;
+Element=
+	name Gold_conveyorbelt_right_turn
+	typeId gconvrt1
+	factory scalebaseelement
+	baseimage goldconveyorbase.png
+	image goldconveyorrt.png
+	level 1
+	requirewall 0;
+Element=
+	name Gold_conveyorbelt_left_and_right_turn
+	typeId gconvlrt1
+	factory scalebaseelement
+	baseimage goldconveyorbase.png
+	image goldconveyorlrt.png
+	level 1
+	requirewall 0;
+	
+Element=
+  name Water
+  typeId water
+  factory element
+  level 0
+  image water.png
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Water_current
+  typeId watercurrent
+  factory scalebaseelement
+  baseimage water.png
+  image watercurrentarrow.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Water_sink
+  typeId watersink
+  factory element
+  image watersink.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Radioactivity
+  typeid radioactivity
+  factory element
+  image radioactivity.png
+  level 0
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Radioactive_waste
+  typeid radioactivewaste
+  factory element
+  image radioactivewaste.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Radioactive_sink
+  typeid radioactivesink
+  factory element
+  image radioactivesink.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Oil_slick
+  typeid oil1
+  factory element
+  image oil1.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Oil_slick
+  typeid oil2
+  factory element
+  image oil2.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Oil_slick
+  typeid oil3
+  factory element
+  image oil3.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+	name Left_laser
+	typeId laserl1
+	factory beamElement
+	image laserleftstart.png
+	beamimage laserleft.png
+	beamendimage laserleftend.png
+	range 0
+	requirewall 1
+	scaletowall 0;
+Element=
+	name Center_laser
+	typeId laserc1
+	factory beamElement
+	image lasercenterstart.png
+	beamimage lasercenter.png
+	beamendimage lasercenterend.png
+	range 0
+	requirewall 1
+	scaletowall 0;
+Element=
+	name Right_laser
+	typeId laserr1
+	factory beamElement
+	image laserrightstart.png
+	beamimage laserright.png
+	beamendimage laserrightend.png
+	range 0
+	requirewall 1
+	scaletowall 0;
+Element=
+  name Slime
+  typeid slime
+  factory element
+  image slime.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Maglock
+  typeid maglock
+  factory timedelement
+  image maglock.png
+  timeImageBase crusher
+  timeImageSufix .png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Lava_pit
+  typeid lavapit
+  factory timedelement
+  timeImageBase crusher
+  timeImageSufix .png
+  image lavapit.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Repulsor
+  typeid repulsor
+  factory timedelement
+  timeImageBase pusher
+  timeImageSufix .png
+  image repulsor.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Repeater
+  typeid repeater
+  factory element
+  image repeater.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Freak_teleporter
+  typeid freakteleporter
+  factory element
+  image freakteleporter.png
+  level 1
+  requirewall 0
+  scaletowall 1;  
+Element=
+  name Repulsor_field
+  typeid repulsorfield
+  factory element
+  image repulsorfield.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Trap_door_pit
+  typeid trapdoorpit
+  factory timedelement
+  image trapdoorpit.png
+  timeImageBase crusher
+  timeImageSufix .png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Chop_shop
+  typeid chopshop
+  factory element
+  image chopshop.png
+  level 1
+  requirewall 0
+  scaletowall 1;
+Element=
+  name Short_flamethrower
+  typeid shortflamethrower
+  factory timedelement
+  image flamershort.png
+  timeImageBase flame
+  timeImageSufix .png
+  level 1
+  requirewall 1
+  scaletowall 0;
+Element=
+  name Flamethrower
+  typeid flamethrower
+  factory element
+  image flamer1.png
+  level 1
+  requirewall 1
+  scaletowall 0;
+Element=
+  name Flamethrower_flame
+  typeid flamethrowerflame
+  factory timedelement
+  image flamer2.png
+  timeImageBase flame
+  timeImageSufix .png
+  level 1
+  requirewall 0
+  scaletowall 1;
+
